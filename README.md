@@ -1,5 +1,9 @@
 # Yara IR Scanner v1.0
 
+## Warning & Disclaimer
+
+I do not suggest running this without validating and testing it for yourself. This is not currently production ready.
+
 ## Prerequisites
 
 1. If you want to scan against specific live Processes, edit the processes.json to add specific running processID's you want to scan.
