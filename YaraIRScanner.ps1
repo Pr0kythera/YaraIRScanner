@@ -1,9 +1,9 @@
 # ==============================================================================
-# Script Name:    YaraScanner.ps1
+# Script Name:    YaraIRScanner.ps1
 # Author:         Prokythera
 # Date:           2025-06-01
 # Description:    PowerShell script for YARA-based malware scanning
-# Usage:          .\YaraScanner.ps1 -ScanType 1|2|3 [options]
+# Usage:          .\YaraIRScanner.ps1 -ScanType 1|2|3 [options]
 # ==============================================================================
 
 [CmdletBinding()]
@@ -42,8 +42,8 @@ $Script:Errors = [System.Collections.Concurrent.ConcurrentBag[PSObject]]::new()
 
 function Show-Help {
     Write-Host @"
-Enhanced YARA Scanner v2.0
-Usage: Enhanced-YaraScanner.ps1 [-ScanType 1|2|3] [options]
+YARA IR Scanner v1.0
+Usage: YaraIRScanner.ps1 [-ScanType 1|2|3] [options]
 
 Scan Types:
   1  Scan all processes on the system
