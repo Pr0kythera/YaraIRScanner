@@ -2,7 +2,7 @@
 
 ## Warning & Disclaimer
 
-I do not suggest running this without validating and testing it for yourself. This is not currently production ready.
+I do not suggest running in a Live Incident Response scenario this without validating and testing it for yourself. This is not currently production ready.
 
 ## Prerequisites
 
